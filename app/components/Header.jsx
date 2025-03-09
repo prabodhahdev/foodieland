@@ -18,9 +18,9 @@ const Header = () => {
         <li className='hover:text-[#FF7426]'><Link href="/about">About Us</Link></li>
       </ul>
      <div className='flex items-center'>
-     <FaFacebookF size={55} />
-     <FaTwitter size={60} />
-     <FaInstagram size={60} />
+     <FaFacebookF size={55}  className='hover:text-[#FF7426] cursor-pointer  '/>
+     <FaTwitter size={60}  className='hover:text-[#FF7426] cursor-pointer'/>
+     <FaInstagram size={60}  className='hover:text-[#FF7426] cursor-pointer'/>
      </div>
     
     
